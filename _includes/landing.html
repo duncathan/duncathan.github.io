@@ -9,9 +9,11 @@
       </div>
     </div>
 
-    <p class="wow animated slideInUp" data-wow-delay=".15s">{{ site.author.name }}</p>
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.author.pronouns }}</p>
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
+    <div class="wow animated slideInUp" data-wow-delay=".15s">
+      <h1>{{ site.author.name }}</h1>
+      <h5 class="text-muted">{{ site.author.pronouns }}</h5>
+    </div>
+    <p class="text-muted wow animated fadeInUp" data-wow-delay=".35s">{{ site.description }}</p>
 
   </div>
 </div>

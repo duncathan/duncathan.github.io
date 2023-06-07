@@ -1,8 +1,9 @@
 ### Site Settings ###
-title               : Dunc Graham
+title               : Dunc Graham's Portfolio
 description         : >-
                       I'm a game designer with experience
                       ranging from escape rooms to digital games.
+                      Currently based in Regina, SK.
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : duncathan/duncathan.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 # remote_theme        : YoussefRaafatNasry/portfolYOU@v2.3.0
