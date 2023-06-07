@@ -1,7 +1,7 @@
 ---
-title:  "Designing a Keystone Puzzle: *Spellbound*'s Conspiracy Board"
+title:  "Designing a Keystone Puzzle: Spellbound's Conspiracy Board"
 tags: [Escape Room, Case Study]
-style: fill
+style: border
 color: primary
 description: yknow the uhhhh board
 ---

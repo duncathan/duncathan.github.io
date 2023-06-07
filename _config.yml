@@ -1,12 +1,11 @@
 ### Site Settings ###
 title               : Dunc Graham
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      I'm a game designer with experience
+                      ranging from escape rooms to digital games.
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : duncathan/duncathan.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU@v2.3.0
+# remote_theme        : YoussefRaafatNasry/portfolYOU@v2.3.0
 domain              : duncathan.com
 url                 : "https://duncathan.com"
 
@@ -26,6 +25,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Dunc Graham
+  pronouns          : hii/him
   image             : https://duncathan.com/assets/dunc.jpg
   email             : dunc@duncathan.com
   twitter           : duncathan_salt
