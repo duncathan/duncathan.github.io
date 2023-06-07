@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Designing a Keystone Puzzle: Spellbound's Conspiracy Board"
-date:   2023-06-06 20:47:34 -0600
-categories: jekyll update
+title:  "Designing a Keystone Puzzle: *Spellbound*'s Conspiracy Board"
+tags: [Escape Room, Case Study]
+style: fill
+color: primary
+description: yknow the uhhhh board
 ---
 
 When designing my most recent escape room, *Spellbound*, I decided very early on that I wanted the highlight of the room to be a puzzle involving a conspiracy board. You know the type:
