@@ -2,7 +2,7 @@
 layout: page
 ---
 
-<h1><b>{{ page.title }}</b></h1>
+<h1><b>{{ page.title | markdownify }}</b></h1>
 
 <p class="post-metadata text-muted">
   {{ page.date | date_to_long_string }} -  
@@ -33,5 +33,11 @@ layout: page
 {% if page.comments %}
 <div class="pt-5">
   {% include blog/disqus.html %}
+</div>
+{% endif %}
+
+{% if page.attribution %}
+<div class="text-muted">
+  {{ page.attribution | markdownify }}
 </div>
 {% endif %}
