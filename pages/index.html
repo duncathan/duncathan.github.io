@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /
+---
+
+<div class="row justify-content-center align-items-center p-4">
+  <div class="col-lg-1 col-0"></div>
+  <div class="col-lg-4 col-md-6 col-12 text-center mt-4">
+    {% include splash.html %}
+  </div>
+
+  <div class="col wow animated fadeInUp" data-wow-delay=".15s">
+      <h2 class="text-center nav-header" id="skills">Skills</h2>
+      {% include about.html %}
+  </div>
+  <div class="col-lg-1 col-0"></div>
+</div>
+
+<div class="wow animated fadeIn" data-wow-delay=".35s">
+  <h2 class="text-center nav-header" id="projects">Projects</h2>
+  {% include projects/index.html %}
+</div>
+
+
+<div class="wow animated fadeIn" data-wow-delay=".1s">
+  <h2 class="text-center nav-header" id="case-studies">Case Studies</h2>
+  {% include blog/index.html %}
+</div>

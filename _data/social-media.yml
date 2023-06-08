@@ -24,7 +24,7 @@ facebook:
 github:
   url   : https://www.github.com/
   icon  : fab fa-github
-  color : 333333
+  color : ADBAC7
 
 gitlab:
   url   : https://www.gitlab.com/
@@ -95,3 +95,8 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
+discord:
+  url   : https://discordapp.com/users/
+  icon  : fab fa-discord
+  color : 5865f2

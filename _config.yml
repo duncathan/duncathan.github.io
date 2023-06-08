@@ -6,7 +6,6 @@ description         : >-
                       Currently based in Regina, SK.
 baseurl             : ""                                # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : duncathan/duncathan.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-# remote_theme        : YoussefRaafatNasry/portfolYOU@v2.3.0
 domain              : duncathan.com
 url                 : "https://duncathan.com"
 
@@ -33,6 +32,7 @@ author:
   email             : dunc@duncathan.com
   twitter           : duncathan_salt
   github            : duncathan
+  discord           : 123210673437147136
 # behance           : your_username
 # dribbble          : your_username
 # facebook          : your_username

@@ -33,3 +33,24 @@
     margin-top: -0.25em;
   }
 }
+
+.navbar {
+  background-color: $dark-600;
+  border-radius: $rounded-borders;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	scroll-margin-top: 100px;
+}
+
+.slime-bounce {
+  width: 64px;
+  height: 64px;
+  background: transparent url("/assets/slime-static.png") center top no-repeat;
+  background-size: 100%;
+  image-rendering: pixelated;
+}
+
+.slime-bounce:hover {
+  background-image: url("/assets/slime-bounce.gif");
+}

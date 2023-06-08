@@ -1,0 +1,15 @@
+/**
+ * Enable smooth scrolling on the whole document
+ */
+html {
+	scroll-behavior: smooth;
+}
+
+/**
+ * Disable smooth scrolling when users have prefers-reduced-motion enabled
+ */
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}

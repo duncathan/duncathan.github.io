@@ -43,7 +43,15 @@
       </p>
     </div>
     <div class="card-footer {{ text_style }}">
-      {{ post.date | date_to_long_string }}
+      {{ post.date | date_to_long_string }} -  
+      <b>
+      {%- assign words = post.content | number_of_words -%}
+      {%- if words < 360 -%}
+        less than 1 min read time
+      {%- else -%}
+        {{ words | divided_by: 180 }} mins read time
+      {%- endif -%}
+      </b>
     </div>
   </a>
 </div>
