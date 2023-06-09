@@ -20,7 +20,11 @@
         {%- endif -%}
         <b>{{ project_name }}</b>
       </h5>
-      <h6 id="{{ project_id }}-role" class="card-text">{{ project_role }}</h6>
+      <div class="d-flex justify-content-between">
+        <h6 id="{{ project_id }}-role" class="card-text">{{ project_role }}</h6>
+        <!-- replace hyphen with en dash for timeline -->
+        <span id="{{ project_id }}-timeline" class="text-muted">{{ project_timeline | replace: "-", "–"}}</span>
+      </div>
       <p id="{{ project_id }}-desc" class="card-text">{{ project_desc | markdownify }}</p>
       <p id="{{ project_id }}-tools" class="card-text">
         {%- for tool in project_tools -%}

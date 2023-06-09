@@ -8,4 +8,5 @@ description:    |
                 - Reviewed Pull Requests from other contributors, ensuring adherence to project standards.
                 - Developed the game's atmospheric simulation subsystem, contributing major refactors along the way.
 external_url: https://tgstation13.org
+timeline: 2015 - 2018
 ---

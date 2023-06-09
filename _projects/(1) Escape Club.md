@@ -9,4 +9,5 @@ description:    |
                 - Sole designer for portable, miniature escape rooms *Expedition Egypt*, *Saving Parrot Ryan*, and *Antivenom*, creating all puzzles within.
 external_url: https://escapeclub.ca
 case_study: conspiracy-board
+timeline: 2018 - Present
 ---

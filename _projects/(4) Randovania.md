@@ -8,4 +8,5 @@ description:    |
                 - Reverse engineered and developed tooling for modding *Dread* and the *Metroid Prime* series.
                 - Created novel algorithms for randomizing specific parts of a game.
 external_url: https://github.com/randovania/randovania
+timeline: 2021 - Present
 ---
