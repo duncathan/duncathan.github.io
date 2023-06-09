@@ -13,6 +13,16 @@
     margin: 0 -15px -15px -15px;
     padding: 15px 35px;
   }
+
+  transition: transform 400ms;
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24);
+  }
+  &:not(:hover) {
+    border: 0;
+    border-color: transparent;
+  }
 }
 
 .post {

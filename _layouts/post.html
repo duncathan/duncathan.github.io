@@ -38,6 +38,9 @@ layout: page
 
 {% if page.attribution %}
 <div class="text-muted">
-  {{ page.attribution | markdownify }}
+  {% for notice in page.attribution %}
+    {{ notice | markdownify }}
+
+  {% endfor %}
 </div>
 {% endif %}

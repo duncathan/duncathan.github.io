@@ -1,11 +1,14 @@
 ---
 title:  "Designing a Keystone Puzzle: *Spellbound*'s Conspiracy Board"
-tags: [Escape Room, Process]
+tags: [Escape Room, Full Process]
 style: border
 color: primary
 image: /assets/conspiracy-board/board-solved.jpg
 description: A look at my process for designing the most important puzzle in the escape room *Spellbound*.
-attribution: "*Spellbound* © 2022 Escape Club Entertainment, Ltd. All rights reserved. All materials used with permission."
+attribution:
+    - "*Spellbound* © 2022 Escape Club Entertainment, Ltd. All rights reserved. All materials used with permission."
+    - "[Photo of Junction 42](https://commons.wikimedia.org/wiki/File:Junction42.jpg) © 2007 SriMesh. CC-BY-SA 3.0."
+    - "*It's Always Sunny In Philadelphia* © FX Networks, LLC. All rights reserved."
 ---
 
 ## Contents
@@ -16,28 +19,23 @@ attribution: "*Spellbound* © 2022 Escape Club Entertainment, Ltd. All rights re
 
 ## Introduction
 When designing my most recent escape room, *Spellbound*, I decided very early on that I wanted the highlight of the room to be a puzzle involving a conspiracy board. You know the type:
-![Charlie from It's Always Sunny In Philadelphia, pointing to a conspiracy board with an intense look on his face](/assets/conspiracy-board/always-sunny.jpg)
+{% include figure.html src="/assets/conspiracy-board/always-sunny.jpg" caption="Charlie from It's Always Sunny In Philadelphia, pointing to a conspiracy board with an intense look on his face" %}
 
 Some context: The theme of the room was heavily inspired by the TV show *Supernatural*. The players are introduced to the room under the premise that a hunter has gone missing, and they're investigating his home in northern Saskatchewan to find out what has happened to him. As they progress, the players learn that the man they're investigating was in fact a *monster* hunter. 
 
-Roughly 60% of the way through the room is when the big reveal happens. It's the single most important moment in the narrative, so the gameplay needed to match that importance: it's the culmination of the entire first phase of the room. ![](/assets/conspiracy-board/whiteboard.jpg)
+Roughly 60% of the way through the room is when the big reveal happens. It's the single most important moment in the narrative, so the gameplay needed to match that importance: it's the culmination of the entire first phase of the room.
+{% include figure.html src="/assets/conspiracy-board/whiteboard.jpg" caption='A whiteboard showing my initial blocked out flowchart. The critical bottleneck in the center is labeled "bulletin", referring to this puzzle.' %}
 
 ## The Puzzle
 Before I go into too much detail and spoil the puzzle, I invite you to spend a couple minutes working it out yourself, if you'd like. It's admittedly a bit clunky to do with only photos, as it was designed as a pretty tactile puzzle, but I would be remiss not to give someone the opportunity before spoiling it in great detail. 
 
 Here are the various components of the puzzle:
 
-The bulletin board
+{% include figure.html src="/assets/conspiracy-board/board-final.jpg" caption="The bulletin board" %}
 
-![](/assets/conspiracy-board/board-final.jpg)
+{% include figure.html src="/assets/conspiracy-board/clues.jpg" caption="The clues" %}
 
-The clues
-
-![](/assets/conspiracy-board/clues.jpg)
-
-The angels
-
-![](/assets/conspiracy-board/angels.png)
+{% include figure.html src="/assets/conspiracy-board/angels.png" caption="The angels" %}
 
 Finally, there are 6 red strings, to run between the items on the board.
 
@@ -60,7 +58,7 @@ Because this puzzle required a bespoke solution, rather than a simple combinatio
 
 So here's the solution: "Type the enemy's name." The intersections highlight the keywords "type", "the enemy's", and "name." The rest of the information on the board will point to Samael being the force behind everything. The players type "Samael" on the typewriter keyboard, and it will print out a message with the next puzzle on it, beginning phase 2 of the room.
 
-![](/assets/conspiracy-board/board-mockup.png)
+{% include figure.html src="/assets/conspiracy-board/board-mockup.png" caption="An early mockup of the bulletin board at this stage in design" %}
 
 ## Content
 Now that I knew the solution, it was time to figure out the contents of the puzzle, and the actual process of solving it. The other designer suggested that we focus on angels. Since this puzzle was at the end of three streams, each stream would give the players a sticky note with information on an angel, which they place on the bulletin board. The connections will be from the angels to the other items on the board.
@@ -69,28 +67,28 @@ But what should those other items be? I struggled with this one for a long while
 
 One night, I was hanging out with some friends and we were sharing horror images. One of them shared a photograph of a darkened highway with unsettling lights in the background, and I knew exactly what I wanted. As mentioned, this room was set in Saskatchewan. If you've never had the pleasure of driving on a Sask highway, here you go:
 
-![](/assets/conspiracy-board/sk-highway.jpg)
+{% include figure.html src="/assets/conspiracy-board/sk-highway.jpg" caption="Saskatchewan Highway 42" %}
 
 Even having lived here my whole life, it's still a bit of a surreal experience. You can quite literally observe the curvature of the earth driving down these highways. Sask highways are the perfect venue for supernatural activity. We got ahold of 10 particularly strange-seeming illustrations of highways, and I printed them out as if they were Polaroid photos. I wrote names of Saskatchewan towns on them, alongside some random dates in October. I didn't have a clue what these towns or dates were yet! I just knew there needed to be something written on these "Polaroids", so I seeded it with data that I hoped I might be able to make use of later. (More on that in a bit.)
 
 Once I had these, I had all the necessary components to put together my first complete prototype!
 
-![](/assets/conspiracy-board/board-first-proto.jpg)
+{% include figure.html src="/assets/conspiracy-board/board-first-proto.jpg" caption="The puzzle's first prototype, arranged as if it's been solved." %}
 
 ## Prototyping
 Obviously, it's looking pretty rough at this stage, but it's a critical proof of concept. Notably, it blocked out the layout that would dictate the puzzle, with the central row of three angels, the two rows of five photographs, and keywords scattered on other sticky notes. It isn't easy to see in the photo, but each angel has a sigil on it. These sigils each match a sigil on the bulletin board, so the players can know where to place each angel note.
 
-Of course, it also highlighted a critical issue: We couldn't give the players thumb tacks! Not only is it seriously unsafe, it would be way too freeform. In a video game, it'd be easy to have items snap into place, or similar, but in the real world we needed to achieve that practically. The whole concept of this puzzle only works if all the items are in just the right place.
+Of course, it also highlighted a critical issue: We couldn't give the players thumb tacks! Not only is it seriously unsafe, it would be way too freeform. In a video game, it'd be easy to have items snap into place, or similar, but in the real world we needed to achieve that practically. The whole concept of this puzzle only works if each item is in just the right place.
 
 The natural solution, of course, was to use magnets. Embedding magnets into the board would make it easy to fix them in place, and eliminates the need to provide the players with anything pointy they could hurt themselves with. Fortunately, it's easy to get ahold of magnets shaped like thumb tacks, so the feeling of manipulating strings tied to thumb tacks would remain intact. This led to the next prototype:
 
-![](/assets/conspiracy-board/board-second-proto.jpg)
+{% include figure.html src="/assets/conspiracy-board/board-second-proto.jpg" caption="The next prototype, with big bulky magnets added and the dates scribbled out." %}
 
 You may notice that in this iteration, I've scribbled out the dates on each photo. What's up with that? Well, I still needed to actually provide the players with the means to work out what connects to where. This is where the extra details of the towns and dates on those photos ended up paying off. I decided to have three sets of associations - one which associates towns with dates, one which associates dates with unusual events, and finally one which associates those unusual events with the three angels. This meant that ultimately, the towns end up associating with the angels, and that's the connection the players would make on the board.
 
 Each of these had pretty straightforward ways to deliver the info to the players. I put together a typewritten note with a list of towns the character visited on specific dates. I filled out a calendar for the month of October, with notes about events on the relevant dates. The angel sticky notes each had a couple of identifying details about the angels on them, so the events corresponding to those angels would be about those specific details.
 
-![](/assets/conspiracy-board/clues.jpg)
+{% include figure.html src="/assets/conspiracy-board/clues.jpg" caption="The calendar and the typewritten note." %}
 
 The nice thing about this setup was that, in addition to having one sticky note for each of the three streams, I also had three distinct components that were necessary to solve the puzzle, making the progression even more clearly gatekept. One stream got an angel and the calendar, one stream got an angel and the note, and one stream got an angel and the strings. 
 
@@ -109,7 +107,7 @@ Time being tight, I found a compromise. The typewriter's keyboard was still mech
 
 In the meantime, the other designer was hard at work cleaning up the bulletin board itself. He did a great job - embedded magnets instead of taping them, made the proper magnetic strings, and got the board attached to the wall of the room. I also made new versions of the three angel notes, with the proper sigils drawn on them and with the notes laminated for protection. This resulted in the version of the puzzle we ultimately launched with: 
 
-![](/assets/conspiracy-board/board-solved.jpg)
+{% include figure.html src="/assets/conspiracy-board/board-solved.jpg" caption="The final iteration of the board, in its solved state." %}
 
 ## Final Thoughts
 This was the most complex puzzle I had ever designed for an escape room. Puzzles with this level of difficulty and complexity are hard to pull off in a medium where players have only a single hour of gameplay available to them. It was only because *Spellbound* was going to be our largest and most difficult room that I had any opportunity to try something like this.
